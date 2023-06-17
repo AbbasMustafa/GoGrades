@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.academic::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: 100% 100%;
+     background-image: linear-gradient(to bottom,rgba(21,61,114,0.5));
+}
+.nav{
+    background: linear-gradient(45deg,black 35%,#1c3d72 34%);
+}
+.card{
+    background: linear-gradient(30deg,#282828 53%,#1c3e61 35%)!important;
+}
+.card:hover{
+    background: #1c3e61;
+}
+.bg{
+    background-image: url("../assets/freePic.jpg");
+   
+}
+.para{
+    color: #000!important;
+    font-weight: 900!important;
+    font-family: 'Satisfy',cursive;
+    text-transform: capitalize!important;
+    font-size: 28px;
+    text-align: center;
+    line-height: 10%;
+}
+.dot{
+    background: linear-gradient(90deg,#F5F5F5 8px,transparent 1%) center,linear-gradient(#F5F5F5 8px,transparent 1%) center,#434343;
+}
+.Scrollbar
+{
+    max-height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.nav1{
+    background: linear-gradient(55deg,black 35%,#1c3d72 14%);
+
+}

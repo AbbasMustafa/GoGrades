@@ -1,0 +1,22 @@
+
+    .scroll::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      .scroll::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+      }
+       
+      /* Handle */
+      .scroll::-webkit-scrollbar-thumb {
+        background: linear-gradient(45deg,black 45%,#1c3d72 14%);
+        border-radius: 5px;
+      }
+   
+      .Scrollbar
+      {
+          max-height: 90px;
+          overflow-y: scroll;
+      }
